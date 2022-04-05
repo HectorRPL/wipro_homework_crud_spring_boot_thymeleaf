@@ -15,7 +15,7 @@
 	<artifactId>springboot-thymeleaf</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot-thymeleaf</name>
-	<description>Demo project for Spring Boot and thymeleaf</description>
+	<description>SpringBoot thymeleaf WIPRO Homework</description>
 
 	<properties>
 		<java.version>1.8</java.version>
