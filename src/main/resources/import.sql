@@ -1,3 +1,13 @@
+CREATE SCHEMA `wipro_homework_dev` ;
+
+CREATE TABLE `wipro_homework_dev`.`employees` (
+    `id` INT NOT NULL AUTO_INCREMENT,
+    `first_name` VARCHAR(45) NOT NULL,
+    `last_name` VARCHAR(45) NOT NULL,
+    `email` VARCHAR(45) NOT NULL,
+    PRIMARY KEY (`id`)
+);
+
 INSERT INTO employees (first_name, last_name, email) VALUES('a', 'a', 'a@a.com');
 INSERT INTO employees (first_name, last_name, email) VALUES('b', 'b', 'a@a.com');
 INSERT INTO employees (first_name, last_name, email) VALUES('c', 'c', 'c@c.com');
